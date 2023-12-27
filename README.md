@@ -1,2 +1,6 @@
 # Predicting-Stock-Market-Index-Using-LSTM-GRU-
-This project seeks to analyze a stock market index by visualizing it’s time series graph, applying PCA for dimension reduction, normalizing data, building LSTM and GRU with a specified architecture, tuning hyperparameters, and selecting the best-performing models for predictions and visualization
+This project aims to develop an advanced approach to predict the stock market behavior. The approach involves several steps such as data preprocessing, exploratory data analysis, dimensionality reduction, and the application of Long Short-Term Memory (LSTM) neural network models. We use a dataset sourced from NEPSE (Nepal Stock Exchange), which undergoes preprocessing steps such as date conversion, feature engineering (50 and 200-day moving averages), and correlation analysis to extract relevant information. 
+
+We employ Principal Component Analysis (PCA) for dimensionality reduction to capture essential features for model training. The LSTM models are constructed and tuned through hyperparameter optimization, considering different neuron configurations, optimizers (Adam, Adagrad, Nadam), learning rates, and batch sizes. 
+
+We evaluate the performance of the models using root mean square error (RMSE) and mean absolute percentage error (MAPE). Our project emphasizes the importance of selecting appropriate neural network architectures for time series prediction tasks. The results of this project can be useful for investors and traders to make informed decisions.
